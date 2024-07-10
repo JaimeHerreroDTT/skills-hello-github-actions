@@ -8,8 +8,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+
 variables:
-- group: New variable group 10-Jul
+- group: grupovariables
 
 steps:
 - script: echo Hello, world!
